@@ -15,6 +15,7 @@ class TransactionsController < ApplicationController
   def dashboard
     @total = Transaction.total
     @count = Transaction.count
+    @months_total = Transaction.transaction_total_this_month
   end
 
   # GET /transactions/new

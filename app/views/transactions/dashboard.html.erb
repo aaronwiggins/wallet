@@ -2,6 +2,7 @@
   <h1>Dashboard</h1>
     <p>So far there have been <%= @count %> transaction(s) in your account</p>
     <p>You have $<%= @total %> left in your account</p>
+    <p>Your total for the transactions this month (<%= Time.now.strftime("%B") %>) is $<%= @months_total %></p>
       <% if @total < 0 %>
         <p>You're in the negative!<p>
       <% end %>
