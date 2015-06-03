@@ -12,6 +12,10 @@ class TransactionsController < ApplicationController
   def show
   end
 
+  def dashboard
+    @total = Transaction.total
+  end
+
   # GET /transactions/new
   def new
     @transaction = Transaction.new

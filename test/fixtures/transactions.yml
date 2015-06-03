@@ -7,3 +7,11 @@ one:
 two:
   name: MyString
   exchange: 9.99
+
+three:
+  name: Rays
+  exchange: 30.54
+
+four:
+  name: Steam
+  exchange: -20.99

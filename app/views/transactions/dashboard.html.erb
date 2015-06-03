@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+  <h1>Dashboard</h1>
+    <p>You have $<%= @total %> left in your account</p>
+      <% if @total < 0 %>
+        <p>You're in the negative!<p>
+      <% end %>
+<%= link_to 'Transactions', transactions_path %>
+<%= link_to 'New Transaction', new_transaction_path %>
