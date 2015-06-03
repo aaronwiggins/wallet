@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
   <h1>Dashboard</h1>
+    <p>So far there have been <%= @count %> transaction(s) in your account</p>
     <p>You have $<%= @total %> left in your account</p>
       <% if @total < 0 %>
         <p>You're in the negative!<p>

@@ -12,4 +12,8 @@ class TransactionTest < ActiveSupport::TestCase
   test "transaction count" do
     assert_equal 4, Transaction.count
   end
+
+  test "transaction total for transactions this month" do
+    assert_equal 29.53, Transaction.transaction_total_this_month
+  end
 end

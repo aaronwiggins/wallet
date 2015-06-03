@@ -14,6 +14,7 @@ class TransactionsController < ApplicationController
 
   def dashboard
     @total = Transaction.total
+    @count = Transaction.count
   end
 
   # GET /transactions/new
