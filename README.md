@@ -22,5 +22,5 @@ Each method in the model was created using TDD (test driven development):
     * `bin/rake db:migrate`
     * `bin/rails server`
 * Open your browser and navigate to `localhost:3000`
-    * from here you can navigate to add a new transaction or view all existing transaction in a table format
+    * from here you can navigate to add a new transaction or view all existing transactions in a table format
     * to get back to the root page, or the Dashboard, just click the `Dashbard` link
